@@ -63,7 +63,11 @@ body {
 }
 
 .search button img {
-  width: 18px;
+  width: 17px;
+}
+
+.weather {
+  display: none;
 }
 
 .weather-icon {
@@ -99,6 +103,7 @@ body {
 }
 
 .column img {
+  width: 42px;
   margin-right: 8px;
 }
 
@@ -106,3 +111,9 @@ body {
   font-size: 18px;
 }
 
+.error {
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 16px;
+  display: none;
+}

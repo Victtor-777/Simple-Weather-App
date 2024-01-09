@@ -5,48 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="./Assets/img/cloud.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./Assets/img/cloud.png"
+      type="image/x-icon"
+    />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>App Clima</title>
   </head>
   <body>
-
     <!--=============== MAIN ===============-->
     <div class="main">
       <div class="app-container">
-        <div class="search">
-          <input type="text" placeholder="Nome da cidade" spellcheck="false">
-          <button><img src="./Assets/img/search.png" alt="procurar"></button>
+        <form class="search">
+          <input type="text" placeholder="Nome da cidade" spellcheck="false" />
+          <button><img src="./Assets/img/search.png" alt="procurar" /></button>
+        </form>
+        <div class="error">
+          <p>Cidade não encontrada.</p>
         </div>
         <div class="weather">
-          <img class="weather-icon" src="./Assets/img/rain.png" alt="">
+          <img class="weather-icon" src="./Assets/img/rain.png" alt="" />
           <h1 class="temp">22 °C</h1>
-          <h2 class="city">New York</h2>
+          <h2 class="city">Brasília</h2>
           <div class="details">
             <div class="column">
-              <img src="./Assets/img/humidity.png" alt="umidade do ar">
+              <img src="./Assets/img/humidity.png" alt="umidade do ar" />
               <div>
                 <p class="humidity">50%</p>
                 <p>Umidade</p>
               </div>
             </div>
             <div class="column">
-              <img src="./Assets/img/wind.png" alt="velocidade do vento">
+              <img src="./Assets/img/wind.png" alt="velocidade do vento" />
               <div>
                 <p>Vento</p>
-                <p class="wind">15 km/h</p>
+                <p class="wind">5 km/h</p>
               </div>
             </div>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
 
     <!--=============== MAIN JS ===============-->
     <script src="./assets/js/script.js"></script>
-
   </body>
 </html>
