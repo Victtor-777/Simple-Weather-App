@@ -90,7 +90,6 @@ body {
 .details {
   display: flex;
   align-items: center;
-  /* justify-content: space-evenly; */
   justify-content: space-between;
   padding: 0 24px;
   margin-top: 32px;
@@ -116,4 +115,37 @@ body {
   padding-top: 10px;
   margin-left: 16px;
   display: none;
+}
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 500px) {
+  .app-container {
+    max-width: 400px;
+    padding: 20px;
+  }
+  .search input {
+    font-size: 15px;
+  }
+  .search button {
+    width: 0;
+    height: 0;
+    padding: 28px;
+  }
+  .weather .temp {
+    font-size: 3rem;
+  }
+  .weather .city {
+    font-size: 3rem;
+  }
+  .details {
+    gap: 32px;
+    padding: 0;
+  }
+  .column img {
+    width: 32px;
+    margin-right: 8px;
+  }
+  .column p {
+    font-size: 1rem;
+  }
 }
